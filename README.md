@@ -1,10 +1,19 @@
 # Aula 02 (08/08/2017)
-
 Nesta aula iremos ver os seguintes tópicos
 
 ## Novo Projeto
 
 ### Novo projeto na [IDE NetBeans](http://www.oracle.com/technetwork/pt/java/javase/downloads/index.html).
+
+#### Versionando **(com GIT)** a pasta de um projeto
+```
+> mkdir <nome do diretório> # cria um diretório a ser versionado
+> cd <nome do diretório>
+> git init
+> git add --all
+> git commit -m "primeiro commit"
+> git status  ## vericando as coisas
+```
 
 #### Criando um novo projeto
 
@@ -27,6 +36,10 @@ por enquanto **deixe marcada** a opção _Criar Classe Principal_ e pressione o 
 * Janela **Serviços**
 * Janela **Navegador**
 
+#### Padrão JavaBeans
+#### Renomear / refatorar
+
+
 #### Variáveis primitivas
 
 #### Lendo um entrada de dados
@@ -37,3 +50,6 @@ por enquanto **deixe marcada** a opção _Criar Classe Principal_ e pressione o 
 ```java
 double[] data = new double[10];
 ```
+
+#### Enviando para github
+
